@@ -13,9 +13,9 @@ public class StartActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_start);
 
-        ImageView imageView4 = (ImageView) findViewById(R.id.imageView4);
+        ImageView imageView20 = (ImageView) findViewById(R.id.imageView20);
 
-        imageView4.setOnClickListener(new ImageView.OnClickListener() {
+        imageView20.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), com.example.yuna.game.PrologueActivity.class);
                 startActivity(intent);

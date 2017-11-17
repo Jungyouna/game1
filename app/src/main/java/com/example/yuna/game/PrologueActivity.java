@@ -16,15 +16,15 @@ public class PrologueActivity extends AppCompatActivity {
 
         final ViewFlipper viewflipper = (ViewFlipper) findViewById(R.id.viewflipper);
         ImageView imageView13 = (ImageView) findViewById(R.id.imageView13);
-        ImageView imageView21 = (ImageView) findViewById(R.id.imageView21);
-        ImageView imageView22 = (ImageView) findViewById(R.id.imageView22);
-        ImageView imageView28 = (ImageView) findViewById(R.id.imageView28);
-        ImageView imageView29 = (ImageView) findViewById(R.id.imageView29);
-        ImageView imageView30 = (ImageView) findViewById(R.id.imageView30);
-        ImageView imageView32 = (ImageView) findViewById(R.id.imageView32);
+        ImageView imageView19 = (ImageView) findViewById(R.id.imageView19);
+        ImageView imageView = (ImageView) findViewById(R.id.imageView);
+        ImageView imageView3 = (ImageView) findViewById(R.id.imageView3);
+        ImageView imageView7 = (ImageView) findViewById(R.id.imageView7);
+        ImageView imageView12 = (ImageView) findViewById(R.id.imageView12);
+        ImageView imageView16 = (ImageView) findViewById(R.id.imageView16);
+        ImageView imageView17 = (ImageView) findViewById(R.id.imageView17);
         ImageView imageView36 = (ImageView) findViewById(R.id.imageView36);
-        ImageView imageView37 = (ImageView) findViewById(R.id.imageView37);
-        ImageView imageView38 = (ImageView) findViewById(R.id.imageView38);
+        ImageView imageView18 = (ImageView) findViewById(R.id.imageView18);
 
 
         imageView13.setOnClickListener(new ImageView.OnClickListener() {
@@ -32,32 +32,32 @@ public class PrologueActivity extends AppCompatActivity {
                 viewflipper.showNext();
             }
         });
-        imageView21.setOnClickListener(new ImageView.OnClickListener() {
+        imageView.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 viewflipper.showNext();
             }
         });
-        imageView22.setOnClickListener(new ImageView.OnClickListener() {
+        imageView3.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 viewflipper.showNext();
             }
         });
-        imageView28.setOnClickListener(new ImageView.OnClickListener() {
+        imageView7.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 viewflipper.showNext();
             }
         });
-        imageView29.setOnClickListener(new ImageView.OnClickListener() {
+        imageView12.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 viewflipper.showNext();
             }
         });
-        imageView30.setOnClickListener(new ImageView.OnClickListener() {
+        imageView16.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 viewflipper.showNext();
             }
         });
-        imageView32.setOnClickListener(new ImageView.OnClickListener() {
+        imageView17.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 viewflipper.showNext();
             }
@@ -67,12 +67,12 @@ public class PrologueActivity extends AppCompatActivity {
                 viewflipper.showNext();
             }
         });
-        imageView37.setOnClickListener(new ImageView.OnClickListener() {
+        imageView18.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 viewflipper.showNext();
             }
         });
-        imageView38.setOnClickListener(new ImageView.OnClickListener() {
+        imageView19.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(), GamestartActivity.class);
                 startActivity(intent);
