@@ -74,7 +74,7 @@ public class PrologueActivity extends AppCompatActivity {
         });
         imageView19.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(getApplicationContext(), GamestartActivity.class);
+                Intent intent = new Intent(getApplicationContext(), ParkJungho.class);
                 startActivity(intent);
             }
         });

@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) { //종료버튼 누르면 onClick 함수 실행
                 AlertDialog.Builder builder = new AlertDialog.Builder(MainActivity.this); //객체할당 (MainActivity 에 중복)
-                builder.setMessage("검은달을 종료하겠냐?"); //해당 빌더에 메세지 설정
+                builder.setMessage("검은달을 종료하시겠습니까?"); //해당 빌더에 메세지 설정
                 builder.setTitle("") //제목
                         .setCancelable(false) //사용자가 임의적으로 종료할 수없도록 설정
                         .setPositiveButton("예", new DialogInterface.OnClickListener() { //Yes 버튼 생성

@@ -68,7 +68,7 @@
                 app:srcCompat="@drawable/black3" />
 
             <TextView
-                android:id="@+id/textView4"
+                android:id="@+id/textView4j"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_alignParentLeft="true"
@@ -91,8 +91,8 @@
                 android:textColor="#FFFFFF"
                 android:text="TextView"
                 android:layout_above="@+id/imageView14"
-                android:layout_alignLeft="@+id/textView4"
-                android:layout_alignStart="@+id/textView4" />
+                android:layout_alignLeft="@+id/textView4j"
+                android:layout_alignStart="@+id/textView4j" />
 
         </RelativeLayout>
     </FrameLayout>
