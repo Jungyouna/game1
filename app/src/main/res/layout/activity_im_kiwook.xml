@@ -6,4 +6,577 @@
     android:layout_height="match_parent"
     tools:context="com.example.yuna.game.ImKiwook">
 
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+
+            <ViewFlipper
+                android:id="@+id/ViewFlipperk"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/imageViewk2">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView101"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView29"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='...(지긋히쳐다본다)'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView117"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView66"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='(씨익)'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView118"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <Button
+                        android:id="@+id/button56"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/button55"
+                        android:layout_centerHorizontal="true"
+                        android:text="되돌아간다"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/button55"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/button56"
+                        android:layout_marginTop="17dp"
+                        android:text="안녕하세요"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView119"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView71"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"예의가 바른 친구로구만."\n"근데 여긴 무슨일인가?"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView120"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <Button
+                        android:id="@+id/button58"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/button57"
+                        android:layout_centerHorizontal="true"
+                        android:text="사물함 가는중이였습니다"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/button57"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/button58"
+                        android:layout_marginTop="17dp"
+                        android:text="수업 들으러왔습니다"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView121"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView81"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"오호 그러고보니 자네 내수업을 듣는 학생이로구만"\n"수업은 따라올만한가?"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView122"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <Button
+                        android:id="@+id/button61"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="50dp"
+                        android:layout_below="@+id/button60"
+                        android:layout_centerHorizontal="true"
+                        android:text="그럭저럭입니다"
+                        android:textSize="20dp" />
+
+                    <Button
+                        android:id="@+id/button60"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="48dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_alignStart="@+id/button61"
+                        android:layout_marginTop="17dp"
+                        android:text="네! 할만합니다!"
+                        android:textSize="20dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView123"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView85"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"그래? 그럼내가 퀴즈를 내보도록하지"\n"다음 중 계층구조가 잘못 짝지어진 것을 골라보게"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView124"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <Button
+                        android:id="@+id/button64"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="37dp"
+                        android:layout_alignParentTop="true"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginTop="12dp"
+                        android:text="1층 - 물리계층"
+                        android:textSize="17dp" />
+
+                    <Button
+                        android:id="@+id/button63"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="37dp"
+                        android:layout_above="@+id/button62"
+                        android:layout_alignStart="@+id/button64"
+                        android:text="2층 - 네트워크계층"
+                        android:textSize="17dp" />
+
+
+                    <Button
+                        android:id="@+id/button62"
+                        style="@android:style/Widget.Button"
+                        android:layout_width="300dp"
+                        android:layout_height="37dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignStart="@+id/button63"
+                        android:text="5층 - 세션계층"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView125"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView87"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"오 자네 자신감이 괜히 나오는 것이 아니였군"\n"계속 흥미를 잃지말고 공부하게\n그럼 나처럼 장관상정도는 받을테니 허허"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView126"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView88"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"아이템을 획득하셨습니다"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView127"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView89"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"아니 자네 그런 것을 보고 근자감이라고하는거야.\n기본도 모르다니....심각하구만"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView129"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView90"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"아이템 획득에 실패하셨습니다"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView130"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView91"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"그런 애매한것으로는 아무것도 할 수 없어"\n"자신감이라도 있어야지"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:id="@+id/imageView131"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentEnd="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/black3" />
+
+                    <TextView
+                        android:id="@+id/textView92"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_alignParentStart="true"
+                        android:layout_below="@+id/imageView11"
+                        android:layout_marginLeft="13dp"
+                        android:layout_marginStart="13dp"
+                        android:layout_marginTop="20dp"
+                        android:text='"자네 수업을 열심히 듣는군! 자 이거 가져가게나"'
+                        android:textColor="#FFFFFF"
+                        android:textSize="17dp" />
+
+                </RelativeLayout>
+
+            </ViewFlipper>
+
+            <ImageView
+                android:id="@+id/imageViewk2"
+                android:layout_width="wrap_content"
+                android:layout_height="330dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/itemButton"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/computer" />
+
+            <ImageView
+                android:id="@+id/imageViewk3"
+                android:layout_width="200dp"
+                android:layout_height="210dp"
+                android:layout_alignBottom="@+id/imageViewk2"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                app:srcCompat="@drawable/imkiwook" />
+
+            <Button
+                android:id="@+id/itemButton"
+                style="@android:style/Widget.Button"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:padding="18dp"
+                android:text="도구함"
+                android:textSize="18dp" />
+
+            <ImageView
+                android:id="@+id/imageViewk4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/black3"
+                android:layout_above="@+id/ViewFlipperk"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:id="@+id/textViewk"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:text="임기육 교수님"
+                android:textColor="#FFFFFF"
+                android:textSize="19dp"
+                android:layout_above="@+id/ViewFlipperk"
+                android:layout_alignEnd="@+id/imageViewk4" />
+
+        </RelativeLayout>
+    </FrameLayout>
 </android.support.constraint.ConstraintLayout>

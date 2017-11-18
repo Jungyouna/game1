@@ -74,7 +74,7 @@ public class ParkJungho extends AppCompatActivity implements professorBase {
         });
 
         ImageView imageView26 = (ImageView) findViewById(R.id.imageView26);
-        imageView22.setOnClickListener(new ImageView.OnClickListener() {
+        imageView26.setOnClickListener(new ImageView.OnClickListener() {
             public void onClick(View v) {
                 viewflipper.setDisplayedChild(9);
             }
@@ -125,7 +125,7 @@ public class ParkJungho extends AppCompatActivity implements professorBase {
         });
 
         Button button6 =(Button)findViewById(R.id.button6);
-        button5.setOnClickListener(new View.OnClickListener() {
+        button6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 viewflipper.setDisplayedChild(16);
@@ -133,7 +133,7 @@ public class ParkJungho extends AppCompatActivity implements professorBase {
         });
 
         Button button7 =(Button)findViewById(R.id.button7);
-        button5.setOnClickListener(new View.OnClickListener() {
+        button7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 viewflipper.setDisplayedChild(16);
@@ -145,6 +145,13 @@ public class ParkJungho extends AppCompatActivity implements professorBase {
             @Override
             public void onClick(View view) {
                 viewflipper.setDisplayedChild(17);
+            }
+        });
+
+        ImageView imageView34 = (ImageView) findViewById(R.id.imageView34);
+        imageView34.setOnClickListener(new ImageView.OnClickListener() {
+            public void onClick(View v) {
+                viewflipper.setDisplayedChild(7);
             }
         });
 

@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         startButton.setOnClickListener(new View.OnClickListener() { //시작버튼 이벤트추가
             @Override
             public void onClick(View v) { //확인버튼 누르면 onClick 함수 실행
-                Intent intent = new Intent(getApplicationContext(), com.example.yuna.game.RegisterActivity.class); //새로운 창을 열기 위해서 필요한 객체
+                Intent intent = new Intent(getApplicationContext(), com.example.yuna.game.ImKiwook.class); //새로운 창을 열기 위해서 필요한 객체
                 startActivity(intent); //intent 실행
             }
         });

@@ -50,7 +50,7 @@
                         android:layout_marginTop="20dp"
                         android:text='"허허 오랜만이네 자네 성별이 뭔가?"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -81,10 +81,10 @@
                         android:id="@+id/button2j"
                         style="@android:style/Widget.Button"
                         android:layout_width="300dp"
-                        android:layout_height="50dp"
+                        android:layout_height="48dp"
                         android:layout_alignParentTop="true"
                         android:layout_alignStart="@+id/button3j"
-                        android:layout_marginTop="14dp"
+                        android:layout_marginTop="17dp"
                         android:text="남자"
                         android:textSize="20dp" />
 
@@ -117,7 +117,7 @@
                         android:layout_marginTop="20dp"
                         android:text='"좋아 좋아! 지금 취업 준비는 잘하고 있나?"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -132,7 +132,7 @@
                         android:layout_height="50dp"
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginBottom="13dp"
+                        android:layout_marginBottom="9dp"
                         android:text="잘모르겠어요"
                         android:textSize="20dp" />
 
@@ -140,10 +140,9 @@
                         android:id="@+id/button2"
                         style="@android:style/Widget.Button"
                         android:layout_width="300dp"
-                        android:layout_height="50dp"
-                        android:layout_alignParentBottom="true"
-                        android:layout_centerHorizontal="true"
-                        android:layout_marginBottom="64dp"
+                        android:layout_height="48dp"
+                        android:layout_above="@+id/button4"
+                        android:layout_alignStart="@+id/button4"
                         android:text="네"
                         android:textSize="20dp" />
 
@@ -219,7 +218,7 @@
                         android:layout_marginTop="20dp"
                         android:text='"아이템을 획득하셨습니다"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -250,7 +249,7 @@
                         android:layout_marginTop="20dp"
                         android:text='"그러면 안돼~ 백수생활하겠구만 준비가 덜됐어, 돌아가"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="16dp" />
 
                 </RelativeLayout>
 
@@ -281,7 +280,7 @@
                         android:layout_marginTop="20dp"
                         android:text='"아이템 획득에 실패하셨습니다"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -312,7 +311,7 @@
                         android:layout_marginTop="20dp"
                         android:text='"자네 군대는 갔다왔나?"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -338,7 +337,7 @@
                         android:layout_height="50dp"
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginBottom="13dp"
+                        android:layout_marginBottom="9dp"
                         android:text="아니요"
                         android:textSize="20dp" />
 
@@ -346,10 +345,10 @@
                         android:id="@+id/button2jj"
                         style="@android:style/Widget.Button"
                         android:layout_width="300dp"
-                        android:layout_height="50dp"
+                        android:layout_height="48dp"
                         android:layout_alignParentBottom="true"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginBottom="64dp"
+                        android:layout_marginBottom="60dp"
                         android:text="네"
                         android:textSize="20dp" />
 
@@ -412,9 +411,9 @@
                         android:layout_marginLeft="13dp"
                         android:layout_marginStart="13dp"
                         android:layout_marginTop="20dp"
-                        android:text='"요즘 사람들이 인터넷에서 아주 예의가 없어 그래서 인터넷에 관련된 문제를 낼꺼야 맞춰봐"'
+                        android:text='"요즘 사람들이 인터넷에서 아주 예의가 없어\n그래서 인터넷에 관련된 문제를 낼꺼야 맞춰봐"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -443,7 +442,7 @@
                         android:layout_marginLeft="13dp"
                         android:layout_marginStart="13dp"
                         android:layout_marginTop="20dp"
-                        android:text='질문) 자네 인터넷에 개자식, 재수 없는 XX, 팔XX주제에 등의 욕설을 쓸 경우 어떤 죄가 해당되는지 알고 있나?'
+                        android:text='질문) 자네 인터넷에 개자식, 재수 없는 XX, 팔XX주제에\n등의 욕설을 쓸 경우 어떤 죄가 해당되는지 알고 있나?'
                         android:textColor="#FFFFFF"
                         android:textSize="15dp" />
 
@@ -472,6 +471,7 @@
                         android:layout_alignParentTop="true"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="12dp"
+                        android:textSize="17dp"
                         android:text="모욕죄" />
 
                     <Button
@@ -481,6 +481,7 @@
                         android:layout_height="37dp"
                         android:layout_alignStart="@+id/button5"
                         android:layout_below="@+id/button5"
+                        android:textSize="17dp"
                         android:text="명예훼손" />
 
                     <Button
@@ -490,6 +491,7 @@
                         android:layout_height="37dp"
                         android:layout_alignParentBottom="true"
                         android:layout_alignStart="@+id/button6"
+                        android:textSize="17dp"
                         android:text="협박죄" />
 
                 </RelativeLayout>
@@ -519,9 +521,9 @@
                         android:layout_marginLeft="13dp"
                         android:layout_marginStart="13dp"
                         android:layout_marginTop="20dp"
-                        android:text='"그런자세 잊지말고 인터넷에서도 항상 조심하고 다니라구! 자 여기선물"'
+                        android:text='"그런자세 잊지말고 인터넷에서도\n항상 조심하고 다니라구! 자 여기선물"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -553,7 +555,7 @@
                         android:layout_marginTop="20dp"
                         android:text='"아이템을 획득하셨습니다"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -582,9 +584,9 @@
                         android:layout_marginLeft="13dp"
                         android:layout_marginStart="13dp"
                         android:layout_marginTop="20dp"
-                        android:text='"이런것도 모르면 안돼~~~ 아주 인터넷에 악플을 달고 그러고 다니겠구만! 다음에와"'
+                        android:text='"이런것도 모르면 안돼~~~\n아주 인터넷에 악플을 달고\n그러고 다니겠구만! 다음에와"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -613,9 +615,9 @@
                         android:layout_marginLeft="13dp"
                         android:layout_marginStart="13dp"
                         android:layout_marginTop="20dp"
-                        android:text='"그러면 안돼 남자는 군대를 갔다오고나서가 시작이야 돌아가. 2년뒤 다시오게나"'
+                        android:text='"그러면 안돼 남자는 군대를 갔다오고나서가\n시작이야 돌아가. 2년뒤 다시오게나"'
                         android:textColor="#FFFFFF"
-                        android:textSize="15dp" />
+                        android:textSize="17dp" />
 
                 </RelativeLayout>
 
@@ -633,12 +635,12 @@
 
             <ImageView
                 android:id="@+id/imageView9j"
-                android:layout_width="180dp"
-                android:layout_height="200dp"
+                android:layout_width="200dp"
+                android:layout_height="210dp"
                 android:layout_alignBottom="@+id/imageView11"
                 android:layout_alignParentEnd="true"
                 android:layout_alignParentRight="true"
-                app:srcCompat="@drawable/female" />
+                app:srcCompat="@drawable/parkjunho" />
 
             <Button
                 android:id="@+id/itemButton"
@@ -663,9 +665,7 @@
                 android:id="@+id/textViewj"
                 android:layout_width="120dp"
                 android:layout_height="wrap_content"
-
                 android:layout_marginLeft="13dp"
-
                 android:text="박졍호 교수님"
                 android:textColor="#FFFFFF"
                 android:textSize="18dp"
