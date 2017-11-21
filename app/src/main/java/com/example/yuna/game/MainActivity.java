@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         startButton.setOnClickListener(new View.OnClickListener() { //시작버튼 이벤트추가
             @Override
             public void onClick(View v) { //확인버튼 누르면 onClick 함수 실행
-                Intent intent = new Intent(getApplicationContext(), com.example.yuna.game.ImKiwook.class); //새로운 창을 열기 위해서 필요한 객체
+                Intent intent = new Intent(getApplicationContext(), com.example.yuna.game.NaBanghyun.class); //새로운 창을 열기 위해서 필요한 객체
                 startActivity(intent); //intent 실행
             }
         });
@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
                         .setNegativeButton("아니요", new DialogInterface.OnClickListener() { //No 버튼 생성
                             @Override
                             public void onClick(DialogInterface dialog, int i) { //No 버튼에 대한 이벤트 처리
-                                dialog.cancel(); //dialog 창이 종료
+                                dialog.cancel(); //dialog 창이
                             }
                         });
                 AlertDialog alert = builder.create(); //dialog 객체를 빌더에서 받아옴
